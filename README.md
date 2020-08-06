@@ -12,21 +12,21 @@ The purpose of this desktop application using Python and PyQt is Filtration of a
   
       * You can apply offline mode on the selected .wav file.
       * Three Graphs for offline filtration before manipulation will appear after browsing for the .wav file:
-        *One for time domain (amplitude vs time).
-        *One for magnitude in Fourier transform(frequency vs amplitude).
-        *One for phase in Fourier transform(frequency vs phase).
+        * One for time domain (amplitude vs time).
+        * One for magnitude in Fourier transform(frequency vs amplitude).
+        * One for phase in Fourier transform(frequency vs phase).
   * Application will apply the offline filter by converting the .wav signal to Fourier then apply the frequency response on it
   * You can hear the sound after applying filter.
   * **Online Mode (Digital filters)**:
   
       * You also can apply online mode on the selected .wav file (apply digital filters without convert the signal to Fourier).
       * Three Graphs for Online Filtration:
-        *One for time domain (amplitude vs time ),
-        *One for Magnitude in Fourier transform (frequency vs amplitude).
-        *One for phase in Fourier transform (frequency vs phase).
+        * One for time domain (amplitude vs time ),
+        * One for Magnitude in Fourier transform (frequency vs amplitude).
+        * One for phase in Fourier transform (frequency vs phase).
 
 
 
 
 
-![youtube](https://www.youtube.com/watch?v=L0CDQk00URU)
+[youtube video](https://www.youtube.com/watch?v=L0CDQk00URU)
