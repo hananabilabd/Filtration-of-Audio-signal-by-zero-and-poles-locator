@@ -1,11 +1,32 @@
 # Filtration-of-Audio-signal-by-zero-and-poles-locator
 
-Filtration of Audio signal by zero and poles graphical manipulation and   plotting the Fourier magnitude and phase in both 2 cases before  and after filtration
--First we select the filter we want by putting zero and poles into the unit circle
--then we browse the .Wav file we wanna apply the filter on 
--3 Graphs for Offline Filtration before manipulation appears after browsing for the .wav file ,the signal in time domain (time &amplitude) , the signal in Fourier transform for magnitude and the Signal in Fourier transform for phase
-- we then apply the offline filter (we convert the signal to Fourier then apply the frequency response on it) and hear the sound after applying filter
-- we can also apply online filter on the selected .wav file (Apply digital filter without convert the signal to Fourier first  )
-- 3 Graphs for Online Filtration : time domain (amplitude & time ), Magnitude in Fourier transform (frequency & amplitude ) and Phase in Fourier transform (frequency & amplitude)
+The purpose of this desktop application using Python and PyQt is Filtration of audio signals by zero and poles graphical manipulation and plotting the Fourier magnitude and phase in both 2 cases before and after filtration.
 
-https://www.youtube.com/watch?v=L0CDQk00URU
+## It is also useful to show the difference between online and offline filtration:
+   * In online( real-time) mode we use digital filters.
+   * In offline mode we use Fourier transform to manipulate magnitude.
+## Application usage:
+  * First you select the filter you want by drawing zero and poles into the unit circle.
+  * Then you browse the .wav file we want to apply the filter on.
+  * **Offline mode(Fourier transform):**
+  
+      * You can apply offline mode on the selected .wav file.
+      * Three Graphs for offline filtration before manipulation will appear after browsing for the .wav file:
+        *One for time domain (amplitude vs time).
+        *One for magnitude in Fourier transform(frequency vs amplitude).
+        *One for phase in Fourier transform(frequency vs phase).
+  * Application will apply the offline filter by converting the .wav signal to Fourier then apply the frequency response on it
+  * You can hear the sound after applying filter.
+  * **Online Mode (Digital filters)**:
+  
+      * You also can apply online mode on the selected .wav file (apply digital filters without convert the signal to Fourier).
+      * Three Graphs for Online Filtration:
+        *One for time domain (amplitude vs time ),
+        *One for Magnitude in Fourier transform (frequency vs amplitude).
+        *One for phase in Fourier transform (frequency vs phase).
+
+
+
+
+
+![youtube](https://www.youtube.com/watch?v=L0CDQk00URU)
